@@ -1,0 +1,25 @@
+{
+  "name": "noderestapiwithimageuploadindatabase",
+  "version": "1.0.0",
+  "description": "express api project with image upload in database",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arbabhsiddiqui/NodeRestApiWithImageUploadInDatabase.git"
+  },
+  "keywords": [
+    "express",
+    "node",
+    "api",
+    "project"
+  ],
+  "author": "Arbab Hussain",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arbabhsiddiqui/NodeRestApiWithImageUploadInDatabase/issues"
+  },
+  "homepage": "https://github.com/arbabhsiddiqui/NodeRestApiWithImageUploadInDatabase#readme"
+}
