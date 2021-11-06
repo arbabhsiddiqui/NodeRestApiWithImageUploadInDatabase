@@ -7,12 +7,14 @@ import {
   updateUserProfile,
   getUsers,
   deleteUser,
+  photo,
   getUserById,
   updateUser,
 } from "../controllers/userController.js";
 import { protect, admin } from "../middleware/authMiddleware.js";
 
 router.route("/").post(registerUser).get(protect, admin, getUsers);
+router.get("/photo/:id", photo);
 router.post("/login", authUser);
 router
   .route("/profile")
